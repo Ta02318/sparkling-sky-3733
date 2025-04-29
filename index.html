@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>书单页面</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 2rem;
+      }
+      .card {
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-2xl font-serif mb-6">书单</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- 静态书单内容 -->
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org/book/1" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">舞台美术设计基础</div>
+          <div class="text-gray-900 text-sm font-sans">孙大庆</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/2" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">Origami Design Secrets: Mathematical Methods for an Ancient Art, Second Edition</div>
+          <div class="text-gray-900 text-sm font-sans">Robert J. Lang</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/3" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">圖解507種機械傳動：科技史上最經典、劃時代的機構與裝置發明</div>
+          <div class="text-gray-900 text-sm font-sans">亨利‧布朗</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/4" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">青少年冰雪运动丛书--《花样滑冰》</div>
+          <div class="text-gray-900 text-sm font-sans">中国滑冰协会/中国花样滑冰协会 联合编著</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/5" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">户型优化空间布局与动线设计</div>
+          <div class="text-gray-900 text-sm font-sans">刀文哥</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/6" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">木工雕刻全书</div>
+          <div class="text-gray-900 text-sm font-sans">[美] 埃弗雷特·爱伦伍德</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/7" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">《城市道路与交通规划》(上册)</div>
+          <div class="text-gray-900 text-sm font-sans">同济大学</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/8" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">供应链管理精要</div>
+          <div class="text-gray-900 text-sm font-sans">[美] 迈克尔·于戈斯</div>
+        </a>
+      </div>
+      <div class="card py-4 px-5 text-center cursor-pointer">
+        <a href="https://www.ta02318.dpdns.org//book/9" class="block">
+          <div class="font-serif text-gray-900 mb-1 line-clamp-1">启功给你讲书法</div>
+          <div class="text-gray-900 text-sm font-sans">启功</div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
